@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     }
 
     public OverlayActions OverlayActions;
+    public PanelResourceList PanelResourceList;
 
     public void ShowActionsOverlay(Interactable interactable)
     {
@@ -24,5 +25,10 @@ public class UIManager : MonoBehaviour
     {
         OverlayActions.ClearActions();
         OverlayActions.gameObject.SetActive(false);
+    }
+
+    public void ForceUpdateResourceList()
+    {
+        PanelResourceList.UpdateList();
     }
 }

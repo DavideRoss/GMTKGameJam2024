@@ -10,14 +10,12 @@ public class Interactable : MonoBehaviour
 
     public void OnPointed()
     {
-        Debug.Log("[Interactable] " + "Pointed!");
 
-        
     }
 
     public void OnUnpointed()
     {
-        Debug.Log("[Interactable] " + "Unpointed!");
+        
     }
 
     public void OnSelected()

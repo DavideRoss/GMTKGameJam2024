@@ -6,5 +6,7 @@ public class ActionGatherKindling : BaseAction
     public override void Execute(Interactable interactable)
     {
         Debug.Log("[GatherKindling] " + "Clicked on kindling");
+
+        ResourcesManager.Instance.AddOrRegister(Resource.Wood, 5);
     }
 }
