@@ -1,0 +1,9 @@
+{
+    "ProjectRoot": "D:/Projects/Unity/Uberrant",
+    "Verbose": false,
+    "Mappings": [{
+        "Source": "Uberrant_blender/output",
+        "Pattern": "*.fbx",
+        "Destination": "_Project/Models/Rooms"
+    }]
+}
